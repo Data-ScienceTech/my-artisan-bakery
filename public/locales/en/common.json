@@ -63,7 +63,8 @@
       "success": "Thank you! We'll get back to you soon.",
       "error": "Please fill in all required fields."
     },
-    "address": "456 Baker Street, Artisan Village, CA 90210"
+    "address": "456 Baker Street, Artisan Village, CA 90210",
+    "hours": "Tue-Sun: 6AM-6PM, Closed Mondays"
   },
   "about": {
     "title": "About Us",
