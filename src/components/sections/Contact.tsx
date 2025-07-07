@@ -70,10 +70,10 @@ export const Contact = () => {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-amber-900 mb-4">
             {t('contact.title')}
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-amber-600 max-w-2xl mx-auto">
             {t('contact.subtitle')}
           </p>
         </div>
@@ -84,7 +84,7 @@ export const Contact = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="name" className="block text-sm font-medium text-amber-700 mb-2">
                       {t('contact.form.name')} *
                     </label>
                     <Input
@@ -98,7 +98,7 @@ export const Contact = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="email" className="block text-sm font-medium text-amber-700 mb-2">
                       {t('contact.form.email')} *
                     </label>
                     <Input
@@ -114,7 +114,7 @@ export const Contact = () => {
                 </div>
                 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="phone" className="block text-sm font-medium text-amber-700 mb-2">
                     {t('contact.form.phone')}
                   </label>
                   <Input
@@ -128,7 +128,7 @@ export const Contact = () => {
                 </div>
                 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="message" className="block text-sm font-medium text-amber-700 mb-2">
                     {t('contact.form.message')} *
                   </label>
                   <Textarea
@@ -144,7 +144,7 @@ export const Contact = () => {
                 
                 <Button 
                   type="submit" 
-                  className="w-full bg-blue-600 hover:bg-blue-700"
+                  className="w-full bg-amber-600 hover:bg-amber-700"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? 'Sending...' : t('contact.form.submit')}
