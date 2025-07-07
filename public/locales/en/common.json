@@ -62,7 +62,8 @@
       "submit": "Send Message",
       "success": "Thank you! We'll get back to you soon.",
       "error": "Please fill in all required fields."
-    }
+    },
+    "address": "456 Baker Street, Artisan Village, CA 90210"
   },
   "about": {
     "title": "About Us",
